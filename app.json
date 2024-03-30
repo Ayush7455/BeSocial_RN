@@ -2,6 +2,17 @@
   "expo": {
     "name": "BeSocial",
     "slug": "BeSocial",
+    "plugins": [
+      "@react-native-google-signin/google-signin",
+      [
+        "expo-build-properties",
+        {
+          "android": {
+            "usesCleartextTraffic": true
+          }
+        }
+      ]
+    ],
     "version": "1.0.0",
     "orientation": "portrait",
     "icon": "./assets/icon.png",
@@ -21,10 +32,17 @@
       "adaptiveIcon": {
         "foregroundImage": "./assets/adaptive-icon.png",
         "backgroundColor": "#ffffff"
-      }
+      },
+      "googleServicesFile": "./google-services.json",
+      "package": "com.besocial.BeSocial"
     },
     "web": {
       "favicon": "./assets/favicon.png"
+    },
+    "extra": {
+      "eas": {
+        "projectId": "01501da5-5bfa-40de-bef0-ae843fa24b65"
+      }
     }
   }
 }

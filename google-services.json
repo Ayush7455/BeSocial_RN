@@ -1,0 +1,55 @@
+{
+  "project_info": {
+    "project_number": "883878913335",
+    "project_id": "besocial-3b05f",
+    "storage_bucket": "besocial-3b05f.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:883878913335:android:4463bf7c2881bf09b966b2",
+        "android_client_info": {
+          "package_name": "com.besocial.BeSocial"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "883878913335-h1k2j3os2tgihkuphfsalipg0m6dc2jo.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.besocial.BeSocial",
+            "certificate_hash": "5c711ce9276e4840cc30f17402913e154acdd648"
+          }
+        },
+        {
+          "client_id": "883878913335-vbar296a27nrltqi8fvs965n867ffged.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.besocial.BeSocial",
+            "certificate_hash": "fa0fe1c50c6ced139e4301f23db6b434c1b32ed9"
+          }
+        },
+        {
+          "client_id": "883878913335-lhuoqe0gc96nja8aku6rsrqfp2u96dr0.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCYt26iIz7c-1L9oCI1X2519sNA_Fvqg_U"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "883878913335-lhuoqe0gc96nja8aku6rsrqfp2u96dr0.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
